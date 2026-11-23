@@ -1,0 +1,129 @@
+{
+  "format": "lovebasic-scene3d",
+  "version": 1,
+  "background": "#1e2230",
+  "grid": true,
+  "shadows": true,
+  "physics": {
+    "enabled": true,
+    "gravity": [
+      0,
+      -9.81,
+      0
+    ],
+    "rate": 60,
+    "iterations": 10,
+    "friction": 0.3,
+    "restitution": 0,
+    "allowSleep": true
+  },
+  "objects": [
+    {
+      "id": "omwsgyf6zvhdh",
+      "name": "Lumière ambiante",
+      "type": "ambient",
+      "position": [
+        0,
+        3,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#ffffff",
+      "intensity": 0.5
+    },
+    {
+      "id": "omwsgyf6z8y9u",
+      "name": "Lumière directionnelle",
+      "type": "directional",
+      "position": [
+        5,
+        10,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#ffffff",
+      "intensity": 2
+    },
+    {
+      "id": "omwsgyf6zk098",
+      "name": "Caméra",
+      "type": "camera",
+      "position": [
+        0,
+        3,
+        8
+      ],
+      "rotation": [
+        -15,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "fov": 60
+    },
+    {
+      "id": "omwsgyf6zlu43",
+      "name": "Sol",
+      "type": "plane",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        10,
+        10,
+        1
+      ],
+      "color": "#5a6e4a"
+    },
+    {
+      "id": "omwsgyf6zfa5l",
+      "name": "Cube",
+      "type": "box",
+      "position": [
+        0,
+        0.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#4f8fd6"
+    }
+  ]
+}
