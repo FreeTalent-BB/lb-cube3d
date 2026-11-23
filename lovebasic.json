@@ -32,7 +32,13 @@
     }
   ],
   "resources": {
-    "images": [],
+    "images": [
+      {
+        "name": "thanks.png",
+        "path": "resources/images/thanks.png",
+        "encoding": "binary"
+      }
+    ],
     "audio": [],
     "models3d": [],
     "fonts": [],

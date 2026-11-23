@@ -67,21 +67,22 @@
       "name": "Caméra",
       "type": "camera",
       "position": [
-        0,
-        3,
-        8
+        4.897,
+        4.197,
+        4.968
       ],
       "rotation": [
-        -15,
-        0,
-        0
+        -39.232,
+        37.761,
+        26.565
       ],
       "scale": [
         1,
         1,
         1
       ],
-      "fov": 60
+      "fov": 60,
+      "projection": "orthographic"
     },
     {
       "id": "omwsgyf6zlu43",
@@ -124,6 +125,28 @@
         1
       ],
       "color": "#4f8fd6"
+    },
+    {
+      "id": "omwtbik5ekxtt",
+      "name": "Sprite 3D",
+      "type": "sprite",
+      "position": [
+        -1,
+        0.5,
+        2.853
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#ffffff",
+      "image": "thanks.png"
     }
   ]
 }
